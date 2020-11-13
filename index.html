@@ -12,13 +12,29 @@
 
         <!-- Boostrap CSS-->
         <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
 
     </head>
     <body>
-        <button class="btn btn-primary" data-toggle="collapse" data-target="#demo">Click Me</button>
-        <div id="demo" class="collapse">See this after clicking click me</div>
-        <h3>This is an icon <i class="fas fa-cloud"></i></h3>
-        
+        <!-- The header -->
+        <div class="container">
+            <div class="row">
+                <nav class="navbar navbar-expand-md">
+                    <a class="navbar-brand" href="#">Logo</a>
+                    <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+                    <span class="navbar-toggle-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="main-navigation">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+        </div>
     <!-- Boostrap Jquery-->
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
